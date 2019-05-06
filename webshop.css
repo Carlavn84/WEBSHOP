@@ -62,7 +62,7 @@ nav ul li a: focus {
     outline: none;
 }
 
-.banner {
+#banner {
    
    
     background-image: linear-gradient(
