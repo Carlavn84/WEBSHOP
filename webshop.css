@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+nav.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+}
+
+nav .black .logo{
+color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav .black ul li a {
+    color: #fff;
+
+}
+
+nav ul li a: focus {
+    outline: none;
+}
+
+.banner {
+   
+   
+    background-image: linear-gradient(
+  to right, rgba(255, 0, 179, 0.651), rgba(255, 0, 179, 0.651) 65%, transparent 25%)
+,
+url("image.png");
+
+
+/* Set a specific height */
+height: 100%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+
+position: relative;
+margin-top: 150px;
+padding: 100px;
+margin-left: 200px;
+}
+
+/*button {
+    padding: 10px;
+    border-radius: 6px;
+}
+*/
+
+.invalid {
+    border: 1px solid red;
+}
