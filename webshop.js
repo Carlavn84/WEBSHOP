@@ -6,11 +6,14 @@ $("#submitButton").click(function() {
     else { 
       setCookie();
       $("#banner").click(function(){
-        $("#banner" ).fadeOut();
-     });
-  }
+        $("#banner" ).fadeOut()
+      });
+      showAlert();
+     };
+     
+  })
+  
 
-})
 
   
   function emailValid(emailAddress) {
@@ -37,4 +40,7 @@ function setCookie() {
   return;
 }
 
-  
+  function showAlert(emailAddress){
+
+   alert("Bendankt voor je inschrijving! Er is een bevestigingsmail gestuurd naar" + emailAddress);
+  }
