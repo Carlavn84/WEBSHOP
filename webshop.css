@@ -62,34 +62,30 @@ nav ul li a: focus {
     outline: none;
 }
 
-#banner {
-   
-   
-    background-image: linear-gradient(
-  to right, rgba(255, 0, 179, 0.651), rgba(255, 0, 179, 0.651) 65%, transparent 25%)
-,
-url("image.png");
 
-
-/* Set a specific height */
-height: 100%;
-
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-
-position: relative;
-margin-top: 150px;
-padding: 100px;
-margin-left: 200px;
+.content {
+    text-align: center;
+    color: red;
+    
+  position: absolute;
+  top: 220px;
+  left: 196px;
 }
 
-/*button {
-    padding: 10px;
-    border-radius: 6px;
-}
-*/
 
-.invalid {
-    border: 1px solid red;
+.image_banner {
+
+     
+     background: linear-gradient(#e66465, #9198e5);
+margin: auto;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+.h3_korting {
+    display: block;
+    top: 80%;
 }
