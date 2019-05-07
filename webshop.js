@@ -40,7 +40,7 @@ function setCookie() {
   return;
 }
 
-  function showAlert(emailAddress){
-
-   alert("Bendankt voor je inschrijving! Er is een bevestigingsmail gestuurd naar" + emailAddress);
+  function showAlert(){
+ var emailInput = document.getElementById("emailAddress").value;
+   alert("Bendankt voor je inschrijving! Er is een bevestigingsmail gestuurd naar"   + emailInput);
   }
